@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title></title>
+    </head>
+    <body background="https://cdn.dribbble.com/users/343382/screenshots/2061239/media/98bbf541957091b6093bf53cd7023411.gif">
+        <center>
+            <h1 id="heading">AI Object Finder</h1>
+            <h4 id="sub">Page will hang for a while after opening.<br>Enter the name of an object and the modal will identify the object in your camera if there and if the name is correct in cocossd modal.</h4>
+            <input id="input" placeholder="Enter an object's name (use small letters and no symbols)">
+            <button onclick="starto()" class="btn btn-primary" id="st">Start</button><br>
+            <label id="sta">Status : Detecting objects</label><label id="fa">Given object not found</label>
+            
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>
